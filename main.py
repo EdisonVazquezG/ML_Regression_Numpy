@@ -1,7 +1,5 @@
 import numpy as np
-import math
 import matplotlib.pyplot as plt
-import random
 from sklearn.metrics import mean_squared_error
 
 def ml_regression(X,y,iter):
