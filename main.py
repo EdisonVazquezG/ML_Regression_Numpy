@@ -17,8 +17,7 @@ def ml_regression(X,y,iter):
         ## evaluation function 
         y_pred = m*X + b
         
-        ## cost function
-        loss = (np.square(y_pred - y).sum())/N
+        ## cost function:   loss = (np.square(y_pred - y).sum())/N
                 
         # Backprop to compute gradients of m,b with respect to loss
         # Update weights
