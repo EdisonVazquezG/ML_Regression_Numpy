@@ -10,9 +10,11 @@ Our task is given the observation $\left( x_{t},y_{t} \right)_{t\epsilon(1,...,3
 
 $\underset{w^{1},w^{2},b}{\mathrm{argmin}}$ $\Sigma_{t=1}^{30}$ $(w^{1}x_{t}^{1} + w^{2}x_{t}^{2} + b - y_{t} )^{2}$
 
+In vector form, it's define: $\hat{y}_{t}$ $w^{T}x_{t} + b$
+
 ### Computing gradient descent
 
-In vector form, it's define: $\hat{y}_{t}$ $w^{T}x_{t} + b$
+
 
 
 
