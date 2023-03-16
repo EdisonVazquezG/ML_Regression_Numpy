@@ -14,5 +14,8 @@ $\underset{w^{1},w^{2},b}{\mathrm{argmin}}$ $\Sigma_{t=1}^{30}$ $(w^{1}x_{t}^{1}
 
 In vector form, it's define: $y_{pred_{t}} = w^{T}x_{t} + b$
 
+and we want to minimize the loss given by:
+$loss = $ $\Sigma_{t} = ($y_{pred_{t}} - y_{t})^{2}$
+
 
 
