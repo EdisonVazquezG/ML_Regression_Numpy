@@ -36,13 +36,15 @@ If $y_{pred_{t}} = w^{T}x_{t} + b$ and $loss = \sum_{t} (y_{pred_{t}} - y_{t})^{
 
 <p align="center">
 $\frac{\sigma loss_{t}}{\sigma w^{T}} = \sum_{t}$ $2*(w^{T}x_{t} + b - y_{t})*x_{t}$
-</p>
-
-<p align="center">
 $\frac{\sigma loss_{t}}{\sigma b} = \sum_{t}$ $2*(w^{T}x_{t} + b - y_{t})$
 </p>
 
 
+For one epoch, (Batch) Gradient Descent updates the weights and bias as follows:
+
+<p align="center">
+$\frac{\sigma loss_{t}}{\sigma b} = \sum_{t}$ $2*(w^{T}x_{t} + b - y_{t})$
+</p>
 
 
 
