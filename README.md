@@ -43,14 +43,14 @@ $\frac{\partial loss_{t}}{\partial b} = \sum_{t}$ $2*(w^{i}x_{t} + b - y_{t})$
 </p>
 
 
-For one epoch, (Batch) Gradient Descent updates the weights and bias as follows:
+For one epoch, (Batch) Gradient Descent updates the weights and bias as follows (where $\alpha$ is the learning rate):
 
 <p align="center">
 $W^{i}_{new} = W^{i}_{old} - \alpha * \frac{\partial loss_{t}}{\partial w^{T}}$
 </p>
 
 <p align="center">
-$b_{new} = b_{old} - \alpha * \frac{\partial loss_{t}}{\partial b}$ where $\alpha$ is the learning rate
+$b_{new} = b_{old} - \alpha * \frac{\partial loss_{t}}{\partial b}$ 
 </p>
 
 
