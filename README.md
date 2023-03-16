@@ -35,7 +35,7 @@ To minimize the loss we first compute the **gradient** of each loss t. Before co
 If $y_{pred_{t}} = w^{T}x_{t} + b$ and $loss = \sum_{t} (y_{pred_{t}} - y_{t})^{2}$ then $loss = \sum_{t} (w^{T}x_{t} + b - y_{t})^{2}$, therefore:
 
 <p align="center">
-$\frac{\sigma loss_{t}}{\sigma w^{T}} = \sum_{t}$ $2*(w^{T}x_{t} + b - y_{t})*x_{t}$,
+$\frac{\sigma loss_{t}}{\sigma w^{T}} = \sum_{t}$ $2*(w^{T}x_{t} + b - y_{t})*x_{t}$
 </p>
 
 <p align="center">
