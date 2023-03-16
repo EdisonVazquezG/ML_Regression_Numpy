@@ -27,13 +27,13 @@ $y_{pred_{t}} = w^{T}x_{t} + b$
 and we want to minimize the loss given by:
 
 <p align="center">
-$loss = \Sigma_{t} (y_{pred_{t}} - y_{t})^{2}$
+$loss = \sum_{t} (y_{pred_{t}} - y_{t})^{2}$
 </p>
 
 To minimize the loss we first compute the **gradient** of each loss t:
 
 <p align="center">
-$\frac{\sigma loss_{t}}{\sigma w} = \Sigma_{t}$ $2*(y_{pred_{t}} - y_{t})*x_{t}$
+$\frac{\sigma loss_{t}}{\sigma w} = \sum_{t}$ $2*(y_{pred_{t}} - y_{t})*x_{t}$
 </p>
 
 
