@@ -30,7 +30,12 @@ and we want to minimize the loss given by:
 $loss = \Sigma_{t} (y_{pred_{t}} - y_{t})^{2}$
 </p>
 
-To minimize the loss we first compute the \textbf{gradient} of each loss t:
+To minimize the loss we first compute the **gradient** of each loss t:
+
+<p align="center">
+$\fracc{\sigma loss_{t}}{\sigma w} = $
+</p>
+
 
 
 
