@@ -12,7 +12,7 @@ $\underset{w^{1},w^{2},b}{\mathrm{argmin}}$ $\Sigma_{t=1}^{30}$ $(w^{1}x_{t}^{1}
 
 ### Computing gradient descent
 
-In vector form, it's define: $y\_pred_{t} = w^{T}x_{t} + b$
+In vector form, it's define: $y_{pred}_{t} = w^{T}x_{t} + b$
 
 
 
