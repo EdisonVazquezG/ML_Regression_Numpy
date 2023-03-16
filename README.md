@@ -2,7 +2,7 @@
 
 This code was created with the main goal to show how to build an ML regression model with gradient descent for the optimization part.
 
-The definition of the problem was got it from the portal of https://dataflowr.github.io/website/modules/2b-automatic-differentiation/
+The definition of the problem was obtained from the portal of https://dataflowr.github.io/website/modules/2b-automatic-differentiation/
 
 The equation model is: 
 
@@ -29,5 +29,9 @@ and we want to minimize the loss given by:
 <p align="center">
 $loss = \Sigma_{t} (y_{pred_{t}} - y_{t})^{2}$
 </p>
+
+To minimize the loss we first compute the \textbf{gradient} of each loss t:
+
+
 
 
