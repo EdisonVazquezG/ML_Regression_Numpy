@@ -35,11 +35,15 @@ To minimize the loss we first compute the **gradient** of each loss t. Before co
 If $y_{pred_{t}} = w^{i}x_{t} + b$ and $loss = \sum_{t} (y_{pred_{t}} - y_{t})^{2}$ then $loss = \sum_{t} (w^{i}x_{t} + b - y_{t})^{2}$, therefore:
 
 <p align="center">
-$\frac{{\partial loss_{t}}{{\partial w^{i}} = \sum_{t}$ $2*(w^{i}x_{t} + b - y_{t})*x_{t}$
+$\[
+\frac{{\partial loss_{t}}{{\partial w^{i}} = \sum_{t}$ $2*(w^{i}x_{t} + b - y_{t})*x_{t}
+\]$ 
 </p>
 
 <p align="center">
-$\frac{{\partial loss_{t}}{{\partial b} = \sum_{t}$ $2*(w^{i}x_{t} + b - y_{t})$
+$\[
+\frac{{\partial loss_{t}}{{\partial b} = \sum_{t}$ $2*(w^{i}x_{t} + b - y_{t})
+\]$
 </p>
 
 
