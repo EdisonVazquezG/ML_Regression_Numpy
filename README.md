@@ -50,7 +50,7 @@ $W^{i}_{new} = W^{i}_{old} - \alpha * \frac{\partial loss_{t}}{\partial w^{T}}$
 </p>
 
 <p align="center">
-$b_{new} = b_{old} - \alpha * \frac{\partial loss_{t}}{\partial b}$
+$b_{new} = b_{old} - \alpha * \frac{\partial loss_{t}}{\partial b}$ where $\alpha$ is the learning rate
 </p>
 
 
