@@ -30,9 +30,9 @@ and we want to minimize the loss given by:
 $loss = \sum_{t} (y_{pred_{t}} - y_{t})^{2}$
 </p>
 
-To minimize the loss we first compute the **gradient** of each loss t. Before to continue, we can do some replacement into the loss equation in order to describe better the next calculation:
+To minimize the loss we first compute the **gradient** of each loss t. Before continuing, we can do some replacements into the loss equation in order to describe better the next calculation.
 
-If $y_{pred_{t}} = w^{T}x_{t} + b$ and $loss = \sum_{t} (y_{pred_{t}} - y_{t})^{2}$
+If $y_{pred_{t}} = w^{T}x_{t} + b$ and $loss = \sum_{t} (y_{pred_{t}} - y_{t})^{2}$ then $loss = \sum_{t} (w^{T}x_{t} + b - y_{t})^{2}$, therefore:
 
 <p align="center">
 $\frac{\sigma loss_{t}}{\sigma w} = \sum_{t}$ $2*(y_{pred_{t}} - y_{t})*x_{t}$
