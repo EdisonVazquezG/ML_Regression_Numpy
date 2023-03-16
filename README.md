@@ -33,7 +33,7 @@ $loss = \Sigma_{t} (y_{pred_{t}} - y_{t})^{2}$
 To minimize the loss we first compute the **gradient** of each loss t:
 
 <p align="center">
-$\frac{\sigma loss_{t}}{\sigma w} = Sigma_{t} 2(y_{pred_{t}} - y_{t})x_{t}$
+$\frac{\sigma loss_{t}}{\sigma w} = \Sigma_{t} 2*(y_{pred_{t}} - y_{t})*x_{t}$
 </p>
 
 
